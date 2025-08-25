@@ -1,7 +1,8 @@
-from pathlib import Path
 from functools import wraps
-import click
+from pathlib import Path
 from typing import Callable
+
+import click
 
 
 def make_path(make_path: Callable) -> Callable:

@@ -1,0 +1,1 @@
+bash: asyncs/asyncs02.py: Permission denied

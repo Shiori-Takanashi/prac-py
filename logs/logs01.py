@@ -1,4 +1,4 @@
-# log/log01.py
+# logs/logs01.py
 import logging
 
 _log_counter = 0
@@ -22,7 +22,7 @@ def get_logger(name: str = __name__) -> logging.Logger:
     if not logger.handlers:
         handler = logging.StreamHandler()  # インスタンス化を忘れない
         formatter = NumberedFormatter(
-            "{asctime} | {levelname:^7} | {log_id} | {filename}:{lineno} | {funcName:^7} | {message}",
+            "{asctime} | {levelname:^7} | {log_id} | {filename}:{lineno} | {funcName:^20} | {message}",
             datefmt="%m-%d %H:%M:%S",
         )
         handler.setFormatter(formatter)

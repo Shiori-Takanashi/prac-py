@@ -1,0 +1,12 @@
+asyncs/asyncs02.py:5: error: Library stubs not installed for "requests"  [import-untyped]
+asyncs/asyncs02.py:5: note: Hint: "python3 -m pip install types-requests"
+asyncs/asyncs02.py:5: note: (or run "mypy --install-types" to install all missing stub packages)
+asyncs/asyncs02.py:5: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+asyncs/asyncs02.py:72: error: Return value expected  [return-value]
+asyncs/asyncs02.py:97: error: Item "None" of "dict[str, str] | None" has no attribute "get"  [union-attr]
+asyncs/asyncs02.py:113: error: Name "extracted_ids" is not defined  [name-defined]
+asyncs/asyncs02.py:118: error: Incompatible return value type (got "str", expected "list[int]")  [return-value]
+asyncs/asyncs02.py:157: error: Incompatible types in assignment (expression has type "list[str] | None", variable has type "list[Any]")  [assignment]
+asyncs/asyncs02.py:161: error: Missing positional argument "target_url" in call to "demo_get_limited_ids_of_ep" of "IdsGetter"  [call-arg]
+asyncs/asyncs02.py:162: error: Argument 2 to "output_data" of "IdsGetter" has incompatible type "dict[Any, Any] | list[Any] | None"; expected "list[Any] | dict[Any, Any]"  [arg-type]
+Found 8 errors in 1 file (checked 1 source file)

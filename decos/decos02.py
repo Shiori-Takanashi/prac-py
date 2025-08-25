@@ -1,6 +1,7 @@
-import time
 import random
+import time
 from functools import wraps
+
 from logs.logs01 import get_logger  # 自作ロガーを想定
 
 log = get_logger()

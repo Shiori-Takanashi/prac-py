@@ -1,0 +1,15 @@
+asyncs/asyncs02.py:12: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+asyncs/asyncs02.py:13: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+asyncs/asyncs02.py:14: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+asyncs/asyncs02.py:34: error: "dict" expects 2 type arguments, but 1 given  [type-arg]
+asyncs/asyncs02.py:34: error: Invalid type comment or annotation  [valid-type]
+asyncs/asyncs02.py:34: note: did you mean to use ',' instead of ':' ?
+asyncs/asyncs02.py:35: error: Incompatible return value type (got "dict[Any, Any] | None", expected "dict[Any, Any]")  [return-value]
+asyncs/asyncs02.py:41: error: Incompatible return value type (got "list[str] | None", expected "list[str]")  [return-value]
+asyncs/asyncs02.py:62: error: Missing return statement  [return]
+asyncs/asyncs02.py:64: error: Name "requests" is not defined  [name-defined]
+asyncs/asyncs02.py:68: error: Return value expected  [return-value]
+asyncs/asyncs02.py:73: error: Name "requests" is not defined  [name-defined]
+asyncs/asyncs02.py:93: error: Item "None" of "dict[Any, Any] | None" has no attribute "get"  [union-attr]
+asyncs/asyncs02.py:99: error: Need type annotation for "all_ids" (hint: "all_ids: list[<type>] = ...")  [var-annotated]
+Found 10 errors in 1 file (checked 1 source file)
